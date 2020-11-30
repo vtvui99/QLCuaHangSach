@@ -1,0 +1,3 @@
+- Đã tạo MasterPage của Admin và Nhân viên
+- Tạo các Trang chức năng cùng với masterpage
+- Đầu tiên thì xử lý các chức năng của Admin như đã trình bày ở Bản word dự kiến --> Nhân viên
