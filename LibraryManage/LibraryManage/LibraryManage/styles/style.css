@@ -1,0 +1,94 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --dark-color: #1D252D;
+    --blue-color: #004FA0;
+    --light-blue-color: #188FD0;
+    --dark-blue-color: #2D353F;
+    --red-color: #F05B45;
+    --green-color: #56A75F;
+    --gray-color: #E9E9E9;
+    --light-gray-color: #F1F1F1;
+    --dark-gray-color: #8E8E8E;
+    --white-color: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--light-gray-color);
+    color: var(--dark-blue-color);
+}
+
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+/* Left Side */
+.left-side .list .list-item:hover {
+    background-color: var(--light-blue-color);
+    color: var(--white-color);
+    transition: ease-in-out all 0.3s;
+}
+
+.left-side .list .list-item.active {
+    background-color: var(--light-blue-color);
+    color: var(--white-color);
+}
+
+/* Right Side */
+.right-side .table tr {
+    background-color: var(--light-gray-color);
+}
+
+.right-side .table tr:nth-child(odd) {
+    background-color: var(--white-color);
+}
+
+.right-side .table tr th, .right-side .table tr td {
+    padding: 8px 10px;
+    border: 1px solid var(--gray-color);
+}
+
+.right-side .table tr td:last-child {
+    text-align: center;
+}
+
+.right-side .input-group label {
+    display: inline-block;
+    width: 120px;
+}
+
+/* Utility Classes */
+.text-dark {color: var(--dark-color) !important;}
+.text-blue {color: var(--blue-color) !important;}
+.text-light-blue {color: var(--light-blue-color) !important;}
+.text-dark-blue {color: var(--dark-blue-color) !important;}
+.text-red {color: var(--red-color) !important;}
+.text-green {color: var(--green-color) !important;}
+.text-gray {color: var(--gray-color) !important;}
+.text-light-gray {color: var(--light-gray-color) !important;}
+.text-dark-gray {color: var(--dark-gray-color) !important;}
+.text-white {color: var(--white-color) !important;}
+
+.bg-dark {background-color: var(--dark-color) !important;}
+.bg-blue {background-color: var(--blue-color) !important;}
+.bg-light-blue {background-color: var(--light-blue-color) !important;}
+.bg-dark-blue {background-color: var(--dark-blue-color) !important;}
+.bg-red {background-color: var(--red-color) !important;}
+.bg-green {background-color: var(--green-color) !important;}
+.bg-gray {background-color: var(--gray-color) !important;}
+.bg-light-gray {background-color: var(--light-gray-color) !important;}
+.bg-dark-gray {background-color: var(--dark-gray-color) !important;}
+.bg-white {background-color: var(--white-color) !important;}
