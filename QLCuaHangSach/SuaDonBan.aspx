@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Input.aspx.cs" Inherits="LibraryManage.Input" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SuaDonBan.aspx.cs" Inherits="QLCuaHangSach.SuaDonBan" %>
 
 <!DOCTYPE html>
 
@@ -25,7 +25,10 @@
                             Tên nhân viên
                         </li>
                         <li class="text-lg text-blue">
-                            <asp:Button Text="Đăng xuất" class="bg-transparent cursor-pointer" runat="server" />
+                            <a href="Login.aspx">
+                                Đăng xuất
+                            </a>
+                            <%--<asp:Button Text="Đăng xuất" class="bg-transparent cursor-pointer" runat="server" />--%>
                         </li>
                     </ul>
                 </div>
@@ -39,7 +42,7 @@
             <div class="left-side" style="width: 300px;">
                 <div class="bg-dark-blue" style="height: 100%;">
                     <div class="text-center p-4">
-                        <img src="img/user.png" class="inline-block" style="width: 100px;" alt="user logo" />
+                        <img src="images/user.png" class="inline-block" style="width: 100px;" alt="user logo" />
                     </div>
                     <ul class="list">
                         <li class="list-item">
@@ -73,7 +76,7 @@
                             </a>
                         </li>
                         <li class="list-item">
-                            <a href="#" class="block text-gray px-4 py-3">
+                            <a href="QLBan.aspx" class="block text-gray px-4 py-3">
                                 <span class="inline-block w-8"><i class="fas fa-edit"></i></span>
                                 Quản lý đơn bán
                             </a>

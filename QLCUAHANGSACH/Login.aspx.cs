@@ -11,7 +11,7 @@ namespace QLCuaHangSach
 {
     public partial class Login : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=E:\LTW\QLCuaHangSach\QLCuaHangSach\App_Data\QLCuaHangSach.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=E:\LTW\QLCuaHangSach\App_Data\QLCuaHangSach.mdf;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
             if (con.State == ConnectionState.Open)

@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LibraryManage
+namespace QLCuaHangSach
 {
 
 
-    public partial class Input
+    public partial class Home
     {
 
         /// <summary>

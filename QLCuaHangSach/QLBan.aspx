@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Input.aspx.cs" Inherits="LibraryManage.Input" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QLBan.aspx.cs" Inherits="QLCuaHangSach.QLBan" %>
 
 <!DOCTYPE html>
 
@@ -25,7 +25,10 @@
                             Tên nhân viên
                         </li>
                         <li class="text-lg text-blue">
-                            <asp:Button Text="Đăng xuất" class="bg-transparent cursor-pointer" runat="server" />
+                            <a href ="Login.aspx">
+                                Đăng xuất
+                            </a>
+                            <%--<asp:Button Text="Đăng xuất" class="bg-transparent cursor-pointer" runat="server" />--%>
                         </li>
                     </ul>
                 </div>
@@ -39,11 +42,11 @@
             <div class="left-side" style="width: 300px;">
                 <div class="bg-dark-blue" style="height: calc(100vh - 56px); min-height: 100%;">
                     <div class="text-center p-4">
-                        <img src="img/user.png" class="inline-block" style="width: 100px;" alt="user logo" />
+                        <img src="images/user.png" class="inline-block" style="width: 100px;" alt="user logo" />
                     </div>
                     <ul class="list">
                         <li class="list-item">
-                            <a href="Home.aspx" class="block text-gray px-4 py-3">
+                            <a href="Home_Admin.aspx" class="block text-gray px-4 py-3">
                                 <span class="inline-block w-8"><i class="fas fa-home"></i></span>
                                 Trang chủ
                             </a>
@@ -67,13 +70,13 @@
                             </a>
                         </li>
                         <li class="list-item active">
-                            <a href="Input.aspx" class="block text-gray px-4 py-3">
+                            <a href="#" class="block text-gray px-4 py-3">
                                 <span class="inline-block w-8"><i class="fas fa-edit"></i></span>
                                 Quản lý đơn nhập
                             </a>
                         </li>
                         <li class="list-item">
-                            <a href="#" class="block text-gray px-4 py-3">
+                            <a href="QLBan.aspx" class="block text-gray px-4 py-3">
                                 <span class="inline-block w-8"><i class="fas fa-edit"></i></span>
                                 Quản lý đơn bán
                             </a>
@@ -98,7 +101,7 @@
             <!-- Right Side -->
             <div class="right-side" style="width: calc(100% - 300px);">
                 <div class="w-full flex items-center bg-white text-lg text-dark-blue px-4 py-2">
-                    <a href="Home.aspx"><span class="pr-1"><i class="fas fa-home"></i></span> Trang chủ</a>
+                    <a href="Home_Admin.aspx"><span class="pr-1"><i class="fas fa-home"></i></span> Trang chủ</a>
                     <span class="px-4"><i class="fas fa-chevron-right"></i></span>
                     <p>Quản lý đơn nhập</p>
                 </div>
@@ -106,7 +109,7 @@
                     <div class="border border-gray-300">
                         <div class="text-left border-b border-gray-300">
                             <span class="inline-block px-3 py-3 border-r border-gray-300">
-                                <a href="InputDetail.aspx" class="bg-green text-white px-3 py-1">
+                                <a href="#" class="bg-green text-white px-3 py-1">
                                     Thêm
                                 </a>
                             </span>

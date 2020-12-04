@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManage", "LibraryManage\LibraryManage.csproj", "{B5D4CCE6-C25A-4715-8D56-1A1CB23B3136}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLCuaHangSach", "QLCuaHangSach.csproj", "{4A9547BB-B164-4DC8-B7CA-81E4D1AE9496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5D4CCE6-C25A-4715-8D56-1A1CB23B3136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5D4CCE6-C25A-4715-8D56-1A1CB23B3136}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5D4CCE6-C25A-4715-8D56-1A1CB23B3136}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5D4CCE6-C25A-4715-8D56-1A1CB23B3136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9547BB-B164-4DC8-B7CA-81E4D1AE9496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9547BB-B164-4DC8-B7CA-81E4D1AE9496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9547BB-B164-4DC8-B7CA-81E4D1AE9496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9547BB-B164-4DC8-B7CA-81E4D1AE9496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
